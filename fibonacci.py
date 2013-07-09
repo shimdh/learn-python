@@ -8,14 +8,24 @@ def getFibonacci(given_no):
 
 sum_fibonacci = 0
 
-for number in range(100):    
-    got_number = getFibonacci(number)
-    print number, got_number
-    if got_number >= 4000000:
-        break
+got_number = 0
+given_no = 0
+
+while got_number < 4000000:
+    got_number = getFibonacci(given_no)
+    # print given_no, got_number
+
     if got_number % 2 == 0:
         sum_fibonacci += got_number
-    # print number, got_number
+    given_no += 1
+
+# for number in range(100):    
+#     got_number = getFibonacci(number)
+#     print number, got_number
+#     if got_number >= 4000000:
+#         break
+#     if got_number % 2 == 0:
+#         sum_fibonacci += got_number
 
 print sum_fibonacci
     
