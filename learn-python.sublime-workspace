@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sum",
+				"sum_fibonacci	(global, instance)"
+			],
+			[
+				"num",
+				"number	(local, instance)"
+			],
+			[
 				"cat",
 				"cat_dict	(global, instance)"
 			],
@@ -122,6 +130,22 @@
 				"buffer_size": 223,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "fibonacci.py",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fibnum.py",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -131,16 +155,48 @@
 		"selected_items":
 		[
 			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"qc",
+				"Git: Quick Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"qcmm",
+				"Git: Quick Commit"
+			],
+			[
 				"instal",
 				"Package Control: Install Package"
 			],
 			[
 				"mini",
 				"View: Toggle Minimap"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			]
 		],
 		"width": 400.0
@@ -160,6 +216,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/shimdh/sublime_Text_2.0.2.2221/Data/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
 		"/C/Users/shimdh/.ssh/config",
 		"/C/Users/shimdh/.ssh/id_rsa.pub",
 		"/C/Users/shimdh/github_rsa.pub",
@@ -192,6 +249,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"number",
 			"writeDirtyLog",
 			"DirtyLog",
 			"tmp_piece",
@@ -224,7 +282,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -278,6 +336,61 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fibonacci.py",
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "fibnum.py",
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -314,6 +427,10 @@
 	},
 	"menu_visible": true,
 	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
 	{
 		"height": 100.0
 	},
