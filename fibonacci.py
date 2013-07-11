@@ -28,4 +28,3 @@ while got_number < 4000000:
 #         sum_fibonacci += got_number
 
 print sum_fibonacci
-    
